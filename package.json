@@ -1,0 +1,20 @@
+{
+  "name": "pdf-merge",
+  "version": "1.0.0",
+  "description": "Merge PDF's in the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pdf-merge": "./index.js"
+},
+  "keywords": [],
+  "author": "Tom Offermann",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.3.0",
+    "pdf-merger-js": "^3.4.0"
+  }
+}
